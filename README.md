@@ -25,3 +25,6 @@ If you use Python or R, there are API wrappers that allow you to simplify the sy
 #### Tiny CKAN API examples
 - [How to build and run very simple datastore queries using Python](https://github.com/WPRDC/api-workshop/blob/master/Tiny_Examples.ipynb) - Again the "datastore" is a database that stores tables of data on the WPRDC data portal (like uploaded CSV files). 
 
+### Finally
+#### A long list of analyses done using WPRDC data and tools that can help you in using our data
+[WPRDC/list-of-WPRDC-relevant-tools-and-analyses](https://github.com/WPRDC/list-of-WPRDC-relevant-tools-and-analyses/edit/master/README.md)
