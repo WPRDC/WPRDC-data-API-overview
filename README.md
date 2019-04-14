@@ -27,4 +27,4 @@ If you use Python or R, there are API wrappers that allow you to simplify the sy
 
 ### Finally
 #### A long list of analyses done using WPRDC data and tools that can help you in using our data
-[WPRDC/list-of-WPRDC-relevant-tools-and-analyses](https://github.com/WPRDC/list-of-WPRDC-relevant-tools-and-analyses/edit/master/README.md)
+- [WPRDC/list-of-WPRDC-relevant-tools-and-analyses](https://github.com/WPRDC/list-of-WPRDC-relevant-tools-and-analyses/edit/master/README.md)
