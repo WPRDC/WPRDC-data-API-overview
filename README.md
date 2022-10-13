@@ -11,6 +11,15 @@ We've done [a workshop](https://github.com/WPRDC/api-training) on using web APIs
 ### Documentation
 The CKAN API documentation is [here](https://docs.ckan.org/en/2.7/api/index.html). Documenation for the datastore_search and datastore_search_sql endpoints (for querying data tables) are [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) and [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search_sql). 
 
+### FAQ
+** The number one most asked question: Why is my CKAN SQL query not working? **
+
+Usually the answer is because the query is not formatted to match the requirements of Postgres (which is the database behind our data portal). Specifically, it's best to surround all 1) field names and table names with double quotes and 2) string values with single quotes, as in this example:
+
+[https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT "PARID" FROM "518b583f-7cc8-4f60-94d0-174cc98310dc" WHERE "MUNICODE"='821' LIMIT 5](https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT%20%22PARID%22%20FROM%20%22518b583f-7cc8-4f60-94d0-174cc98310dc%22%20WHERE%20%22MUNICODE%22=%27821%27%20LIMIT%205)
+
+Click it to see it in action!
+
 ### Wrappers
 If you use Python or R, there are API wrappers that allow you to simplify the syntax needed to make API calls:
   * [Python wrapper for CKAN API](https://github.com/ckan/ckanapi)
