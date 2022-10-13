@@ -12,7 +12,7 @@ We've done [a workshop](https://github.com/WPRDC/api-training) on using web APIs
 The CKAN API documentation is [here](https://docs.ckan.org/en/2.7/api/index.html). Documenation for the datastore_search and datastore_search_sql endpoints (for querying data tables) are [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) and [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search_sql). 
 
 ### FAQ
-** The number one most asked question: Why is my CKAN SQL query not working? **
+**The number one most asked question: Why is my CKAN SQL query not working?**
 
 Usually the answer is because the query is not formatted to match the requirements of Postgres (which is the database behind our data portal). Specifically, it's best to surround all 1) field names and table names with double quotes and 2) string values with single quotes, as in this example:
 
