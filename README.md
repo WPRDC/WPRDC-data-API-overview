@@ -16,7 +16,7 @@ The CKAN API documentation is [here](https://docs.ckan.org/en/2.7/api/index.html
 
 Usually the answer is because the query is not formatted to match the requirements of Postgres (which is the database behind our data portal). Specifically, it's best to surround all 1) field names and table names with double quotes and 2) string values with single quotes, as in this example:
 
-[https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT "PARID" FROM "f2b8d575-e256-4718-94ad-1e12239ddb92" WHERE "MUNICODE"='821' LIMIT 5](https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT%20%22PARID%22%20FROM%20%22518b583f-7cc8-4f60-94d0-174cc98310dc%22%20WHERE%20%22MUNICODE%22=%27821%27%20LIMIT%205)
+[https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT "PARID" FROM "f2b8d575-e256-4718-94ad-1e12239ddb92" WHERE "MUNICODE"='821' LIMIT 5](https://data.wprdc.org/api/3/action/datastore_search_sql?sql=SELECT%20%22PARID%22%20FROM%20%22f2b8d575-e256-4718-94ad-1e12239ddb92%22%20WHERE%20%22MUNICODE%22=%27821%27%20LIMIT%205)
 
 Click it to see it in action!
 
