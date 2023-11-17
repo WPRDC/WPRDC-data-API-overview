@@ -9,7 +9,7 @@ Click [this link](https://data.wprdc.org/api/3/action/datastore_search_sql?sql=S
 We've done [a workshop](https://github.com/WPRDC/api-training) on using web APIs in general and the WPRDC's APIs in particular. The linked GitHub repository includes examples and documention on using our data API.
 
 ### Documentation
-The CKAN API documentation is [here](https://docs.ckan.org/en/2.7/api/index.html). Documenation for the datastore_search and datastore_search_sql endpoints (for querying data tables) are [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) and [here](https://docs.ckan.org/en/2.7/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search_sql). 
+The CKAN API documentation is [here](https://docs.ckan.org/en/2.10/api/index.html). Documenation for the datastore_search and datastore_search_sql endpoints (for querying data tables) are [here](https://docs.ckan.org/en/2.10/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search) and [here](https://docs.ckan.org/en/2.10/maintaining/datastore.html#ckanext.datastore.logic.action.datastore_search_sql). 
 
 ### FAQ
 **The number one most asked question: Why is my CKAN SQL query not working?**
