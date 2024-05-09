@@ -30,7 +30,8 @@ If you use Python or R, there are API wrappers that allow you to simplify the sy
 
 ### Some data API examples
 #### Making SQL queries on WPRDC Data
-- [Jupyter notebook showing how to get and use WPRDC data in Python](https://github.com/WPRDC/Jupyter-notebooks-by-dataset/blob/master/Crash-Data-Analysis.ipynb) - Page down to the "Using SQL queries" section.
+- [query-slinger](https://github.com/WPRDC/query-slinger) - A tool we wrote specifically to make it easier to query WPRDC data tables. 
+- [Jupyter notebook showing how to get and use WPRDC data in Python](https://github.com/WPRDC/Jupyter-notebooks-by-dataset/blob/master/Crash-Data-Analysis.ipynb) - Page down to the "Using SQL queries" section of the notebook.
 #### CKAN API usage under R + debugging a broken SQL query
 - [Using the CKAN API wrapper + converting string fields to integers in SQL queries](https://gist.github.com/drw/3fa37a32dcb49d42820347b8b735bec3) - Addressing a common pitfall when running SQL queries, this R script shows how to convert a string field to an integer and then use it in the WHERE clause of a SQL query. This also gives a simple example of using the ckanr wrapper package to more easily use the CKAN API.
 #### Tiny CKAN API examples
